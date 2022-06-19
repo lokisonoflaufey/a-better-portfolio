@@ -206,9 +206,10 @@
   
   /* Structural Styles */
   header,
-  #work,
+  #contact,
   #skills,
   #about,
+  #projects,
   footer {
     display: flex;
     justify-content: center;
@@ -220,7 +221,7 @@
     width: 85%;
   }
   
-  #work p,
+  #contact p,
   #about p {
     width: 100%;
     text-align: left;
@@ -230,7 +231,7 @@
     margin-bottom: 60px;
   }
   
-  #work {
+  #contact {
     padding-top: 60px;
   }
   
@@ -303,12 +304,12 @@
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
   /* Portfolio */
-  #work,
+  #contact,
   #skills {
     width: 100%;
   }
   
-  #work h3 {
+  #contact h3 {
     width: 100%;
   }
   
